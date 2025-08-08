@@ -45,7 +45,9 @@ header {
   max-width: 1460px;
   width: 100%;
   padding: 40px 0;
+  backdrop-filter: blur(2px);
 }
+
 header .inner {
   display: flex;
   justify-content: space-between;
@@ -65,6 +67,10 @@ header .gnb li a {
   padding: 0 4px;
   font-size: 2rem;
   font-weight: 600;
+  transition: all .3s;
+}
+header .gnb li:hover a {
+  color: var(--main-color);
 }
 header .gnb li a.download {
   font-size: 1.8rem;
@@ -654,6 +660,9 @@ header .gnb li a.download {
 }
 
 @media (max-width: 700px) {
+  #app {
+    padding: 0;
+  }
   #app .deco li:nth-child(1) {
     top: 500px;
     left: -300px;
