@@ -164,13 +164,22 @@ header .gnb li a.download {
   background-color: #fff;
 }
 
+@keyframes move {
+  0% {
+    bottom: -130px;
+  }
+  100% {
+    bottom: -7px
+  }
+}
 #main .mv-phone {
   max-width: 500px;
   position: absolute;
-  bottom: -8px;
+  bottom: -7px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9;
+  animation: move 1s ease;
 }
 #main .mv-phone img {
   width: 100%;
