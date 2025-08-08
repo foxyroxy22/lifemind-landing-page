@@ -688,6 +688,9 @@ header .gnb li a.download {
     top: 3300px;
     right: -300px;
   }
+  #app .app-list > li {
+    padding: 50px 0;
+  }
   #app .app-list > li .mobile > img {
     height: 500px;
   }
