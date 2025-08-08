@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 프리텐다드 웹폰트 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
+/* righteous 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Pretendard Variable", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.4;
+  letter-spacing: -.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
