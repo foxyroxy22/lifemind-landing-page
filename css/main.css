@@ -118,7 +118,7 @@ header .gnb li a.download {
   background: url(../img/mv_bg.png) no-repeat center / cover;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 950px;
 }
 
 #main .inner {
@@ -193,7 +193,7 @@ header .gnb li a.download {
   width: 101%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   #main {
     height: 768px;
   }
